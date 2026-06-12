@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>João Klein — Desenvolvedor Full Stack</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- CURSOR -->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-trail" id="cursorTrail"></div>
+
+  <!-- LOADER -->
+  <div class="loader" id="loader">
+    <div class="loader-text">
+      <span class="loader-name">KLEIN</span>
+      <div class="loader-bar"><div class="loader-fill" id="loaderFill"></div></div>
+      <span class="loader-sub" id="loaderSub">Inicializando...</span>
+    </div>
+  </div>
+
+  <!-- NAV -->
+  <nav class="nav" id="nav">
+    <div class="nav-logo">JK<span class="nav-dot">.</span></div>
+    <ul class="nav-links">
+      <li><a href="#sobre">Sobre</a></li>
+      <li><a href="#projetos">Projetos</a></li>
+      <li><a href="#habilidades">Skills</a></li>
+      <li><a href="#contato">Contato</a></li>
+    </ul>
+    <a href="https://github.com/joao13132" target="_blank" class="nav-github">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/>
+      </svg>
+      GitHub
+    </a>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero-bg">
+      <div class="hero-grid"></div>
+      <div class="hero-glow"></div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-tag">Full Stack Developer</div>
+      <h1 class="hero-title">
+        João<br>
+        <span class="hero-title-accent">Klein</span>
+      </h1>
+      <p class="hero-desc">
+        Desenvolvedor Full Stack & Especialista em Banco de Dados.<br>
+        Transformando ideias em código desde o primeiro commit.
+      </p>
+      <div class="hero-btns">
+        <a href="#projetos" class="btn-primary">Ver Projetos</a>
+        <a href="#contato" class="btn-secondary">Contato</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat">
+          <span class="stat-num" id="statRepos">--</span>
+          <span class="stat-label">Repositórios</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-num" id="statStars">--</span>
+          <span class="stat-label">Stars</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-num">6</span>
+          <span class="stat-label">Tecnologias</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="avatar-ring">
+        <div class="avatar-inner">
+          <span class="avatar-initials">JK</span>
+        </div>
+        <div class="avatar-orbit orbit-1"></div>
+        <div class="avatar-orbit orbit-2"></div>
+        <svg class="avatar-orbit-icon" viewBox="0 0 200 200">
+          <circle cx="100" cy="100" r="90" fill="none" stroke="rgba(99,102,241,0.15)" stroke-width="1" stroke-dasharray="4 8"/>
+        </svg>
+      </div>
+    </div>
+  </section>
+
+  <!-- SOBRE -->
+  <section class="sobre" id="sobre">
+    <div class="container">
+      <div class="section-tag">// sobre mim</div>
+      <div class="sobre-grid">
+        <div class="sobre-text">
+          <h2>Olá, sou o <span class="accent">João</span></h2>
+          <p>Desenvolvedor Full Stack apaixonado por tecnologia e soluções inteligentes. Trabalho com desenvolvimento web completo, desde o frontend até o backend, passando por banco de dados e automação.</p>
+          <p>Atualmente construindo o <strong>J.A.R.V.I.S.</strong> — meu assistente pessoal de IA — e sempre buscando novos desafios no mundo da tecnologia.</p>
+          <div class="sobre-info">
+            <div class="info-item">
+              <span class="info-icon">📍</span>
+              <span>Brasil</span>
+            </div>
+            <div class="info-item">
+              <span class="info-icon">✉️</span>
+              <span>jv8390120@gmail.com</span>
+            </div>
+            <div class="info-item">
+              <span class="info-icon">💼</span>
+              <span>Disponível para projetos</span>
+            </div>
+          </div>
+        </div>
+        <div class="sobre-card">
+          <div class="code-block">
+            <div class="code-header">
+              <span class="code-dot red"></span>
+              <span class="code-dot yellow"></span>
+              <span class="code-dot green"></span>
+              <span class="code-title">klein.js</span>
+            </div>
+            <pre class="code-content"><code><span class="c-keyword">const</span> <span class="c-var">developer</span> = {
+  <span class="c-key">nome</span>: <span class="c-str">"João Klein"</span>,
+  <span class="c-key">area</span>: <span class="c-str">"Full Stack"</span>,
+  <span class="c-key">skills</span>: [
+    <span class="c-str">"HTML"</span>, <span class="c-str">"CSS"</span>,
+    <span class="c-str">"JavaScript"</span>, <span class="c-str">"Python"</span>,
+    <span class="c-str">"PHP"</span>, <span class="c-str">"SQL"</span>
+  ],
+  <span class="c-key">github</span>: <span class="c-str">"@joao13132"</span>,
+  <span class="c-key">status</span>: <span class="c-str">"Building JARVIS 🤖"</span>
+};</code></pre>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJETOS -->
+  <section class="projetos" id="projetos">
+    <div class="container">
+      <div class="section-tag">// projetos</div>
+      <h2 class="section-title">Meu Trabalho no <span class="accent">GitHub</span></h2>
+      <p class="section-sub">Atualizado automaticamente via GitHub API</p>
+
+      <!-- Carrossel -->
+      <div class="carousel-wrapper">
+        <div class="carousel" id="carousel">
+          <div class="carousel-loading" id="carouselLoading">
+            <div class="loading-spinner"></div>
+            <span>Carregando projetos do GitHub...</span>
+          </div>
+        </div>
+        <div class="carousel-nav">
+          <button class="carousel-btn" id="prevBtn">←</button>
+          <div class="carousel-dots" id="carouselDots"></div>
+          <button class="carousel-btn" id="nextBtn">→</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- HABILIDADES -->
+  <section class="habilidades" id="habilidades">
+    <div class="container">
+      <div class="section-tag">// habilidades</div>
+      <h2 class="section-title">Stack <span class="accent">Tecnológico</span></h2>
+      <div class="skills-grid">
+        <div class="skill-card" data-level="90">
+          <div class="skill-icon">🌐</div>
+          <div class="skill-info">
+            <span class="skill-name">HTML5</span>
+            <div class="skill-bar"><div class="skill-fill" data-w="90"></div></div>
+          </div>
+          <span class="skill-pct">90%</span>
+        </div>
+        <div class="skill-card" data-level="85">
+          <div class="skill-icon">🎨</div>
+          <div class="skill-info">
+            <span class="skill-name">CSS3</span>
+            <div class="skill-bar"><div class="skill-fill" data-w="85"></div></div>
+          </div>
+          <span class="skill-pct">85%</span>
+        </div>
+        <div class="skill-card" data-level="80">
+          <div class="skill-icon">⚡</div>
+          <div class="skill-info">
+            <span class="skill-name">JavaScript</span>
+            <div class="skill-bar"><div class="skill-fill" data-w="80"></div></div>
+          </div>
+          <span class="skill-pct">80%</span>
+        </div>
+        <div class="skill-card" data-level="75">
+          <div class="skill-icon">🐍</div>
+          <div class="skill-info">
+            <span class="skill-name">Python</span>
+            <div class="skill-bar"><div class="skill-fill" data-w="75"></div></div>
+          </div>
+          <span class="skill-pct">75%</span>
+        </div>
+        <div class="skill-card" data-level="70">
+          <div class="skill-icon">🐘</div>
+          <div class="skill-info">
+            <span class="skill-name">PHP</span>
+            <div class="skill-bar"><div class="skill-fill" data-w="70"></div></div>
+          </div>
+          <span class="skill-pct">70%</span>
+        </div>
+        <div class="skill-card" data-level="80">
+          <div class="skill-icon">🗄️</div>
+          <div class="skill-info">
+            <span class="skill-name">Banco de Dados</span>
+            <div class="skill-bar"><div class="skill-fill" data-w="80"></div></div>
+          </div>
+          <span class="skill-pct">80%</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTATO -->
+  <section class="contato" id="contato">
+    <div class="container">
+      <div class="section-tag">// contato</div>
+      <h2 class="section-title">Vamos <span class="accent">Conversar</span></h2>
+      <div class="contato-grid">
+        <div class="contato-info">
+          <p>Aberto a projetos, colaborações e oportunidades. Entre em contato!</p>
+          <div class="contato-links">
+            <a href="mailto:jv8390120@gmail.com" class="contato-link">
+              <span class="contato-icon">✉️</span>
+              jv8390120@gmail.com
+            </a>
+            <a href="https://github.com/joao13132" target="_blank" class="contato-link">
+              <span class="contato-icon">🐙</span>
+              github.com/joao13132
+            </a>
+          </div>
+        </div>
+        <form class="contato-form" id="contatoForm">
+          <input type="text" placeholder="Nome" id="formNome" required>
+          <input type="email" placeholder="Email" id="formEmail" required>
+          <textarea placeholder="Mensagem" id="formMsg" rows="4" required></textarea>
+          <button type="submit" class="btn-primary">Enviar Mensagem</button>
+          <div class="form-status" id="formStatus"></div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <span class="footer-logo">JK<span class="accent">.</span></span>
+        <span class="footer-text">João Klein © 2024 — Feito com ☕ e código</span>
+        <a href="https://github.com/joao13132" target="_blank" class="footer-github">GitHub</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/github.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
