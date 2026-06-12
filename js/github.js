@@ -137,11 +137,13 @@ document.addEventListener('DOMContentLoaded', () => {
   const nextBtn = document.getElementById('nextBtn');
 
   prevBtn?.addEventListener('click', () => {
-    carousel.scrollBy({ left: -324, behavior: 'smooth' });
+    carousel.scrollBy({ left: -330, behavior: 'smooth' });
+    console.log('prev clicado');
   });
 
   nextBtn?.addEventListener('click', () => {
-    carousel.scrollBy({ left: 324, behavior: 'smooth' });
+    carousel.scrollBy({ left: 330, behavior: 'smooth' });
+    console.log('next clicado');
   });
 
   carousel?.addEventListener('scroll', () => {
